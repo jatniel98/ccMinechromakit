@@ -1,0 +1,24 @@
+ccMineChromakit — pasta HOTDOCS
+================================
+
+Copia o conteúdo desta pasta diretamente para a pasta htdocs do alojamento, para
+que o ficheiro fique em htdocs/index.html. Não copies a pasta HOTDOCS como subpasta.
+
+Template 2
+----------
+A prévia do Template 2 está em assets/template-02-preview.mp4 para manter o
+index.html leve. O botão de descarga entrega o MOV original em
+assets/template-02-original.mov (4090 × 2160, 60 fps). Envia a pasta assets inteira.
+
+Base de dados e sessão
+----------------------
+Mantém a pasta api completa. api/config.php contém as credenciais da base de dados;
+não partilhes o seu conteúdo. api/.htaccess protege o acesso HTTP direto ao ficheiro.
+
+Diagnóstico rápido do login
+---------------------------
+Abre https://ccminechromakit.unaux.com/api/auth.php?action=session no Chrome.
+A resposta correta começa por JSON com "authenticated". Se aparecer 403, HTML ou
+uma página de verificação, o alojamento não está a entregar a API PHP em htdocs/api.
+
+O título de boas-vindas usa Press Start 2P, incorporada no index.html; a licença SIL OFL está em fonts/OFL.txt.

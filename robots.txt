@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ccminechromakit.unaux.com/sitemap.xml
